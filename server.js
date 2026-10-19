@@ -14,7 +14,7 @@ let dataTerakhir = null;
 app.get("/", (req, res) => {
   res.json({
     status: "success",
-    message: "IoT API Sensor Suhu berjalan",
+    message: "IoT API Sensor Suhu berjalan - CI/CD Berhasil",
     kelompok: "Kelompok 2"
   });
 });
